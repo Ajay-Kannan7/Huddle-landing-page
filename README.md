@@ -32,3 +32,7 @@ The above code fragment gives a bounce effect to the h1 tag with a delay of 2 se
   }
 ```
 We can add as many animation styles as we need in order to improve our site's user experience.
+
+## Design
+### Desktop design
+![image](https://user-images.githubusercontent.com/78952955/141670816-4626cbed-03c4-4266-a0a8-f5eb5b9cba28.png)
