@@ -36,3 +36,9 @@ We can add as many animation styles as we need in order to improve our site's us
 ## Design
 ### Desktop design
 ![image](https://user-images.githubusercontent.com/78952955/141670816-4626cbed-03c4-4266-a0a8-f5eb5b9cba28.png)
+
+### Mobile design
+![image](https://user-images.githubusercontent.com/78952955/141670851-65b81f04-0730-48b4-bef9-e2cadc65e20f.png)
+
+### Live site URL
+https://huddle-connection.netlify.app/
