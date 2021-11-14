@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:poppins;
+}
+@font-face{
+    font-family:poppins;
+    src:url(fonts/Poppins-Regular.otf);
+}
+body{
+    background-image:url(images/bg-desktop.svg);
+    background-color:#674bb1;
+    color:#fff;
+}
+/*Logo design starts here*/
+.cont1 .row img{
+    margin-top:3%;
+    animation:fadeInDown 1s ease-in;
+}
+/*Logo design starts here*/
+/*Left markup-photo design starts here*/
+.cont2 .row .col-lg-6{
+    width:55%;
+    height:20%;
+    margin-top:2%;
+    animation:fadeIn 1.3s ease-in;
+}
+.cont2 .row .col-lg-6 img{
+    width:100%;
+}
+/*Left markup-photo design ends here*/
+/*Right banner design starts here*/
+.cont2 .row .col-lg-4{
+    width:45%;
+    padding:30px 10px;
+    animation:fadeIn 1.3s ease-in;
+}
+.cont2 .row .col-lg-4 button{
+    width:30%;
+    font-size:17px;
+    padding:15px 15px;
+    color:#674bb1;
+    border-radius:30px;
+    border-style:none;
+    box-shadow:1px 3px 7px #000;
+    transition:all 0.2s ease-in;
+}
+.cont2 .row .col-lg-4 button:hover{
+    background-color:rgb(212, 10, 10);
+    color:#fff;
+    transform:scale(1.1);
+}
+/*Right banner design ends here*/
+/*Footer design starts here*/
+.cont3 .row .footer{
+    width:100%;
+    text-align:right;
+    font-size:30px;
+    margin:15px 0px;
+}
+.cont3 .row .footer .fa{
+    color:#fff;
+    text-decoration:none;
+    border:2px solid #fff;
+    padding:9px;
+    border-radius:100%;
+    animation:fadeIn 1s ease-in;
+    transition:all 0.3s ease-in;
+}
+.cont3 .row .footer .fa:hover{
+    border-color:#a255bf;
+    color:#a255bf;
+}
+.cont3 .row .footer .fa-facebook{
+    padding-left:15px;
+    padding-right:15px;
+}
+.cont3 .row .footer .fa-instagram{
+    padding-left:10px;
+    padding-right:10px;
+}
+.cont3 .row .footer .fa-instagram,.cont3 .row .footer .fa-twitter{
+    margin-left:2%;
+}
+/*Footer design ends here*/
+/*Media query for responsiveness starts here*/
+@media only screen and (max-width:1200px){
+    body{
+        background-image:url(images/bg-mobile.svg)
+    }
+    .cont2 .row .col-lg-6,.cont2 .row .col-lg-4{
+        text-align:center;
+        width:100%;
+    }
+    .cont3 .row .footer{
+        text-align:center;
+    }
+}
+/*Media query for responsiveness ends here*/
